@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB3371AF1BB62F6C003A51A5 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3371A81BB62F6C003A51A5 /* Bolts.framework */; settings = {ASSET_TAGS = (); }; };
+		CB3371B01BB62F6C003A51A5 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3371A91BB62F6C003A51A5 /* Parse.framework */; settings = {ASSET_TAGS = (); }; };
+		CB3371B11BB62F6C003A51A5 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3371AA1BB62F6C003A51A5 /* ParseCrashReporting.framework */; settings = {ASSET_TAGS = (); }; };
+		CB3371B21BB62F6C003A51A5 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3371AB1BB62F6C003A51A5 /* ParseFacebookUtils.framework */; settings = {ASSET_TAGS = (); }; };
+		CB3371B31BB62F6C003A51A5 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3371AC1BB62F6C003A51A5 /* ParseFacebookUtilsV4.framework */; settings = {ASSET_TAGS = (); }; };
+		CB3371B41BB62F6C003A51A5 /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3371AD1BB62F6C003A51A5 /* ParseTwitterUtils.framework */; settings = {ASSET_TAGS = (); }; };
+		CB3371B51BB62F6C003A51A5 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3371AE1BB62F6C003A51A5 /* ParseUI.framework */; settings = {ASSET_TAGS = (); }; };
+		CB3371B71BB62FF0003A51A5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3371B61BB62FF0003A51A5 /* AudioToolbox.framework */; };
+		CB3371B91BB62FF9003A51A5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3371B81BB62FF9003A51A5 /* CFNetwork.framework */; };
+		CB3371BB1BB63000003A51A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3371BA1BB63000003A51A5 /* CoreGraphics.framework */; };
+		CB3371BD1BB63007003A51A5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3371BC1BB63007003A51A5 /* CoreLocation.framework */; };
+		CB3371BF1BB6300E003A51A5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3371BE1BB6300E003A51A5 /* QuartzCore.framework */; };
+		CB3371C11BB63015003A51A5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3371C01BB63015003A51A5 /* Security.framework */; };
+		CB3371C51BB63022003A51A5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3371C41BB63022003A51A5 /* SystemConfiguration.framework */; };
+		CB3371C71BB63041003A51A5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3371C61BB63041003A51A5 /* libz.tbd */; };
+		CB3371C91BB63057003A51A5 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3371C81BB63057003A51A5 /* libsqlite3.tbd */; };
+		CB3371CB1BB63065003A51A5 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3371CA1BB63065003A51A5 /* Accounts.framework */; };
+		CB3371CD1BB6306B003A51A5 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3371CC1BB6306B003A51A5 /* Social.framework */; };
+		CB7395301B927F4E00431A00 /* ConversationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB73952F1B927F4E00431A00 /* ConversationVC.swift */; };
+		CBBC89201B9E143900C82840 /* profiledefault.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBC891F1B9E143900C82840 /* profiledefault.png */; };
+		CBE1AF801B8FC9520072D7FF /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE1AF7F1B8FC9520072D7FF /* UserViewController.swift */; };
+		CBE1AF821B8FCA290072D7FF /* resultsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE1AF811B8FCA290072D7FF /* resultsCell.swift */; };
+		CBE9A8091B8E85C1002CBB24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE9A8081B8E85C1002CBB24 /* AppDelegate.swift */; };
+		CBE9A80B1B8E85C1002CBB24 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE9A80A1B8E85C1002CBB24 /* LoginViewController.swift */; };
+		CBE9A80E1B8E85C1002CBB24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE9A80C1B8E85C1002CBB24 /* Main.storyboard */; };
+		CBE9A8101B8E85C1002CBB24 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBE9A80F1B8E85C1002CBB24 /* Images.xcassets */; };
+		CBE9A8131B8E85C1002CBB24 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBE9A8111B8E85C1002CBB24 /* LaunchScreen.xib */; };
+		CBE9A8291B8E87C2002CBB24 /* SignUPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE9A8281B8E87C2002CBB24 /* SignUPViewController.swift */; };
+		CBE9A8451B8E8AF7002CBB24 /* ChatAppHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE9A8441B8E8AF7002CBB24 /* ChatAppHeader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB3371A81BB62F6C003A51A5 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		CB3371A91BB62F6C003A51A5 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		CB3371AA1BB62F6C003A51A5 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		CB3371AB1BB62F6C003A51A5 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		CB3371AC1BB62F6C003A51A5 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		CB3371AD1BB62F6C003A51A5 /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		CB3371AE1BB62F6C003A51A5 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		CB3371B61BB62FF0003A51A5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CB3371B81BB62FF9003A51A5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CB3371BA1BB63000003A51A5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB3371BC1BB63007003A51A5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CB3371BE1BB6300E003A51A5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CB3371C01BB63015003A51A5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CB3371C41BB63022003A51A5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CB3371C61BB63041003A51A5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		CB3371C81BB63057003A51A5 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		CB3371CA1BB63065003A51A5 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		CB3371CC1BB6306B003A51A5 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		CB73952F1B927F4E00431A00 /* ConversationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationVC.swift; sourceTree = "<group>"; };
+		CBBC891F1B9E143900C82840 /* profiledefault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profiledefault.png; sourceTree = "<group>"; };
+		CBC7FD4B1BB624D400221CA6 /* Chat_App_Dev_Profile.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chat_App_Dev_Profile.mobileprovision; sourceTree = "<group>"; };
+		CBE1AF7F1B8FC9520072D7FF /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		CBE1AF811B8FCA290072D7FF /* resultsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resultsCell.swift; sourceTree = "<group>"; };
+		CBE9A8031B8E85C1002CBB24 /* ChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE9A8071B8E85C1002CBB24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBE9A8081B8E85C1002CBB24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBE9A80A1B8E85C1002CBB24 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CBE9A80D1B8E85C1002CBB24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBE9A80F1B8E85C1002CBB24 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CBE9A8121B8E85C1002CBB24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CBE9A8281B8E87C2002CBB24 /* SignUPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUPViewController.swift; sourceTree = "<group>"; };
+		CBE9A8431B8E8AF6002CBB24 /* ChatApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChatApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		CBE9A8441B8E8AF7002CBB24 /* ChatAppHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatAppHeader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBE9A8001B8E85C1002CBB24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3371CD1BB6306B003A51A5 /* Social.framework in Frameworks */,
+				CB3371CB1BB63065003A51A5 /* Accounts.framework in Frameworks */,
+				CB3371C91BB63057003A51A5 /* libsqlite3.tbd in Frameworks */,
+				CB3371C71BB63041003A51A5 /* libz.tbd in Frameworks */,
+				CB3371C51BB63022003A51A5 /* SystemConfiguration.framework in Frameworks */,
+				CB3371C11BB63015003A51A5 /* Security.framework in Frameworks */,
+				CB3371BF1BB6300E003A51A5 /* QuartzCore.framework in Frameworks */,
+				CB3371BD1BB63007003A51A5 /* CoreLocation.framework in Frameworks */,
+				CB3371BB1BB63000003A51A5 /* CoreGraphics.framework in Frameworks */,
+				CB3371B91BB62FF9003A51A5 /* CFNetwork.framework in Frameworks */,
+				CB3371B71BB62FF0003A51A5 /* AudioToolbox.framework in Frameworks */,
+				CB3371B01BB62F6C003A51A5 /* Parse.framework in Frameworks */,
+				CB3371B11BB62F6C003A51A5 /* ParseCrashReporting.framework in Frameworks */,
+				CB3371B51BB62F6C003A51A5 /* ParseUI.framework in Frameworks */,
+				CB3371B21BB62F6C003A51A5 /* ParseFacebookUtils.framework in Frameworks */,
+				CB3371AF1BB62F6C003A51A5 /* Bolts.framework in Frameworks */,
+				CB3371B41BB62F6C003A51A5 /* ParseTwitterUtils.framework in Frameworks */,
+				CB3371B31BB62F6C003A51A5 /* ParseFacebookUtilsV4.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBE9A7FA1B8E85C1002CBB24 = {
+			isa = PBXGroup;
+			children = (
+				CBC7FD4B1BB624D400221CA6 /* Chat_App_Dev_Profile.mobileprovision */,
+				CBE9A8421B8E8AAF002CBB24 /* Frameworks */,
+				CBE9A8051B8E85C1002CBB24 /* ChatApp */,
+				CBE9A8041B8E85C1002CBB24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBE9A8041B8E85C1002CBB24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBE9A8031B8E85C1002CBB24 /* ChatApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBE9A8051B8E85C1002CBB24 /* ChatApp */ = {
+			isa = PBXGroup;
+			children = (
+				CBE9A8081B8E85C1002CBB24 /* AppDelegate.swift */,
+				CB73952F1B927F4E00431A00 /* ConversationVC.swift */,
+				CBE9A80A1B8E85C1002CBB24 /* LoginViewController.swift */,
+				CBE9A8281B8E87C2002CBB24 /* SignUPViewController.swift */,
+				CBE1AF7F1B8FC9520072D7FF /* UserViewController.swift */,
+				CBE1AF811B8FCA290072D7FF /* resultsCell.swift */,
+				CBE9A80C1B8E85C1002CBB24 /* Main.storyboard */,
+				CBE9A80F1B8E85C1002CBB24 /* Images.xcassets */,
+				CBE9A8111B8E85C1002CBB24 /* LaunchScreen.xib */,
+				CBE9A8061B8E85C1002CBB24 /* Supporting Files */,
+				CBE9A8441B8E8AF7002CBB24 /* ChatAppHeader.m */,
+				CBE9A8431B8E8AF6002CBB24 /* ChatApp-Bridging-Header.h */,
+			);
+			path = ChatApp;
+			sourceTree = "<group>";
+		};
+		CBE9A8061B8E85C1002CBB24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBBC891F1B9E143900C82840 /* profiledefault.png */,
+				CBE9A8071B8E85C1002CBB24 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBE9A8421B8E8AAF002CBB24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB3371CC1BB6306B003A51A5 /* Social.framework */,
+				CB3371CA1BB63065003A51A5 /* Accounts.framework */,
+				CB3371C81BB63057003A51A5 /* libsqlite3.tbd */,
+				CB3371C61BB63041003A51A5 /* libz.tbd */,
+				CB3371C41BB63022003A51A5 /* SystemConfiguration.framework */,
+				CB3371C01BB63015003A51A5 /* Security.framework */,
+				CB3371BE1BB6300E003A51A5 /* QuartzCore.framework */,
+				CB3371BC1BB63007003A51A5 /* CoreLocation.framework */,
+				CB3371BA1BB63000003A51A5 /* CoreGraphics.framework */,
+				CB3371B81BB62FF9003A51A5 /* CFNetwork.framework */,
+				CB3371B61BB62FF0003A51A5 /* AudioToolbox.framework */,
+				CB3371A81BB62F6C003A51A5 /* Bolts.framework */,
+				CB3371A91BB62F6C003A51A5 /* Parse.framework */,
+				CB3371AA1BB62F6C003A51A5 /* ParseCrashReporting.framework */,
+				CB3371AB1BB62F6C003A51A5 /* ParseFacebookUtils.framework */,
+				CB3371AC1BB62F6C003A51A5 /* ParseFacebookUtilsV4.framework */,
+				CB3371AD1BB62F6C003A51A5 /* ParseTwitterUtils.framework */,
+				CB3371AE1BB62F6C003A51A5 /* ParseUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBE9A8021B8E85C1002CBB24 /* ChatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBE9A8221B8E85C1002CBB24 /* Build configuration list for PBXNativeTarget "ChatApp" */;
+			buildPhases = (
+				CBE9A7FF1B8E85C1002CBB24 /* Sources */,
+				CBE9A8001B8E85C1002CBB24 /* Frameworks */,
+				CBE9A8011B8E85C1002CBB24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatApp;
+			productName = ChatApp;
+			productReference = CBE9A8031B8E85C1002CBB24 /* ChatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBE9A7FB1B8E85C1002CBB24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = ColombiaIOS;
+				TargetAttributes = {
+					CBE9A8021B8E85C1002CBB24 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = D22QV9Y5YP;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = CBE9A7FE1B8E85C1002CBB24 /* Build configuration list for PBXProject "ChatApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBE9A7FA1B8E85C1002CBB24;
+			productRefGroup = CBE9A8041B8E85C1002CBB24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBE9A8021B8E85C1002CBB24 /* ChatApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBE9A8011B8E85C1002CBB24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE9A80E1B8E85C1002CBB24 /* Main.storyboard in Resources */,
+				CBE9A8131B8E85C1002CBB24 /* LaunchScreen.xib in Resources */,
+				CBE9A8101B8E85C1002CBB24 /* Images.xcassets in Resources */,
+				CBBC89201B9E143900C82840 /* profiledefault.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBE9A7FF1B8E85C1002CBB24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE1AF821B8FCA290072D7FF /* resultsCell.swift in Sources */,
+				CB7395301B927F4E00431A00 /* ConversationVC.swift in Sources */,
+				CBE9A8451B8E8AF7002CBB24 /* ChatAppHeader.m in Sources */,
+				CBE1AF801B8FC9520072D7FF /* UserViewController.swift in Sources */,
+				CBE9A80B1B8E85C1002CBB24 /* LoginViewController.swift in Sources */,
+				CBE9A8291B8E87C2002CBB24 /* SignUPViewController.swift in Sources */,
+				CBE9A8091B8E85C1002CBB24 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CBE9A80C1B8E85C1002CBB24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBE9A80D1B8E85C1002CBB24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBE9A8111B8E85C1002CBB24 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBE9A8121B8E85C1002CBB24 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBE9A8201B8E85C1002CBB24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Samuel Doherty (F3B723ZG72)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Samuel Doherty (F3B723ZG72)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBE9A8211B8E85C1002CBB24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Samuel Doherty (F3B723ZG72)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Samuel Doherty (F3B723ZG72)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBE9A8231B8E85C1002CBB24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Samuel Doherty (F3B723ZG72)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Samuel Doherty (F3B723ZG72)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ChatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.columbiaios.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChatApp/ChatApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBE9A8241B8E85C1002CBB24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Samuel Doherty (F3B723ZG72)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Samuel Doherty (F3B723ZG72)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ChatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.columbiaios.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChatApp/ChatApp-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBE9A7FE1B8E85C1002CBB24 /* Build configuration list for PBXProject "ChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE9A8201B8E85C1002CBB24 /* Debug */,
+				CBE9A8211B8E85C1002CBB24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBE9A8221B8E85C1002CBB24 /* Build configuration list for PBXNativeTarget "ChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE9A8231B8E85C1002CBB24 /* Debug */,
+				CBE9A8241B8E85C1002CBB24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBE9A7FB1B8E85C1002CBB24 /* Project object */;
+}
