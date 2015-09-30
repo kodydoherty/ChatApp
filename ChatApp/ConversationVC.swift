@@ -77,12 +77,12 @@ class ConversationVC: UIViewController , UIScrollViewDelegate , UITextViewDelega
         mLbl.textColor = UIColor.lightGrayColor()
         
         messageTextView.addSubview(mLbl)
-        
+//        
 //        refreshResults()
         
         
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyboardWasShown", name: UIKeyboardDidShowNotification, object: nil)
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyboardWillHide", name: UIKeyboardWillHideNotification, object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyboardWasShown:", name: UIKeyboardDidShowNotification, object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyboardWillHide:", name: UIKeyboardWillHideNotification, object: nil)
         
         let tapScrollViewGesture = UITapGestureRecognizer(target: self, action: "didTapScrollView")
         
